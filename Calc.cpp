@@ -8,7 +8,7 @@ public:
     float multiply(float a, float b) { return a * b; }
     float divide(float a, float b) { 
         if (b == 0) {
-            cout << "Error: Division by zero is not allowed." << endl;
+            cout << "Error: Division by zero is not allowed!" << endl;
             return 0; 
         }
         return a / b; 
