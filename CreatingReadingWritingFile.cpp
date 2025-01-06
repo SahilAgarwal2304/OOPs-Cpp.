@@ -8,7 +8,7 @@ int main(){
 	cerr<<"Error in creating file!!";
 	createfile.close();
 	ofstream insert("Example.txt");
-	insert<<"THIS IS A SAMPLE FILE"<<endl;
+	insert<<"This is a Sample File"<<endl;
 	insert.close();
 	ifstream readfile("Example.txt");
 	if(!readfile)
